@@ -1,0 +1,21 @@
+.axis path {
+    fill: none;
+    stroke-width: 0;
+    stroke: black;
+}
+
+.axis .minor line {
+    stroke: #777;
+    stroke-dasharray: 2,2;
+}
+
+#display {
+    width: 75%;
+    float: left;
+}
+
+#player-name {
+    float: left;
+    width: 25%;
+    height: 200px;
+}

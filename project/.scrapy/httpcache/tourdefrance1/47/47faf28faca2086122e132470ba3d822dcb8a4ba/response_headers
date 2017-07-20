@@ -1,0 +1,13 @@
+Server: Apache
+Access-Control-Allow-Origin: http://qlf-m.letour.fr
+Access-Control-Allow-Origin: http://m.letour.fr
+Access-Control-Allow-Origin: http://m.letour.fr
+Content-Type: text/html; charset=UTF-8
+Accept-Ranges: bytes
+X-Varnish: 1033089228
+X-Varnish-Cache: MISS
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Cache-Control: max-age=58
+Expires: Thu, 20 Jul 2017 20:11:10 GMT
+Date: Thu, 20 Jul 2017 20:10:12 GMT

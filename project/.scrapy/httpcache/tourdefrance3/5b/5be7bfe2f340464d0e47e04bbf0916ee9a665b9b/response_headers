@@ -1,0 +1,13 @@
+X-Varnish: 1184702573
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Accept-Ranges: bytes
+Expires: Thu, 20 Jul 2017 08:53:06 GMT
+X-Varnish-Cache: MISS
+Server: Apache
+Cache-Control: max-age=57
+Date: Thu, 20 Jul 2017 08:52:09 GMT
+Access-Control-Allow-Origin: http://qlf-m.letour.fr
+Access-Control-Allow-Origin: http://m.letour.fr
+Access-Control-Allow-Origin: http://m.letour.fr
+Content-Type: text/html; charset=UTF-8
