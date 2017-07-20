@@ -1,9 +1,0 @@
-X-Varnish: 1031878982
-Accept-Ranges: bytes
-X-Varnish-Cache: MISS
-Server: Apache
-Date: Thu, 20 Jul 2017 09:17:41 GMT
-Access-Control-Allow-Origin: http://qlf-m.letour.fr
-Access-Control-Allow-Origin: http://m.letour.fr
-Access-Control-Allow-Origin: http://m.letour.fr
-Content-Type: text/html; charset=UTF-8
