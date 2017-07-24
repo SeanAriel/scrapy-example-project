@@ -1,5 +1,5 @@
 # Very basic spider
-#
+# Will start scraping the entire letour.com website because it looks for all links and yields Requests for all of them
 
 import scrapy
 

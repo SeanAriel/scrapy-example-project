@@ -1,3 +1,5 @@
+# This will only follow links to rider pages
+
 import scrapy
 
 
