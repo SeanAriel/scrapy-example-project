@@ -1,8 +1,16 @@
+# Add a callback to the rider pages Requests
+# Those pages will now be parsed with parse_rider_page
+# We also configured a pipeline here
+
 import scrapy
 from project.items import RiderItem
 
 
 def get_first(some_list, default=None):
+    """
+    Helper function: gets first item of a list if the list has 1 or more elements. Otherwise, the default
+    value is returned
+    """
     if len(some_list) > 0:
         return some_list[0]
     return default
@@ -12,6 +20,11 @@ class TourDeFranceSpider(scrapy.Spider):
     allowed_domains = ['letour.com']
     start_urls = ['http://www.letour.com/le-tour/2017/us/starters.html']
     name = "tourdefrance3"
+    custom_settings = {
+        'ITEM_PIPELINES': {
+            'project.pipelines.TestPipeline': 100
+        }
+    }
 
     def parse(self, response):
         rider_links = response.css('ul.equipes table').xpath('.//a/@href').extract()
