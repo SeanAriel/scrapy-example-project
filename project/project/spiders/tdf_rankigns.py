@@ -11,7 +11,7 @@ def get_first(some_list, default=None):
 
 class TourDeFranceSpider(scrapy.Spider):
     allowed_domains = ['letour.com']
-    start_urls = ['http://www.letour.com/le-tour/2017/us/stage-{}/classifications.html'.format(x) for x in range(18)]
+    start_urls = ['http://www.letour.com/le-tour/2017/us/stage-{}/classifications.html'.format(x) for x in range(20)]
     name = "tdf_rankings1"
 
     def parse(self, response):
