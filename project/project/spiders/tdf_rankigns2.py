@@ -1,3 +1,6 @@
+# This scraper will get all the rankings data. Compared to the previous implementation you'll notice that we
+# used a different start url here.
+
 import re
 import scrapy
 from project.items import RankingItem

@@ -1,3 +1,5 @@
+# This is a naive implementation to scrape the rankings data. However, it will fail.
+
 import re
 import scrapy
 from project.items import RankingItem

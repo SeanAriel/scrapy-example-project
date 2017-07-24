@@ -1,3 +1,4 @@
+# This is a complete working spider to scrape the rider data
 # Add a callback to the rider pages Requests
 # Those pages will now be parsed with parse_rider_page
 # We also configured a pipeline here
